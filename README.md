@@ -19,8 +19,19 @@ A robust Command Line Interface (CLI) application developed in C++ that simulate
 
 
 ### Data Structures Implemented
-Doubly Linked List: Used for the main playlist to allow $O(1)$ navigation between songs.
 
-Stack (Array-based): Implemented for the HistoryStack to manage playback history (LIFO logic).
+• Doubly Linked List: Used for the main playlist to allow $O(1)$ navigation between songs.
 
-File I/O: Specialized handlers for parsing and formatting song metadata from external files.
+• Stack (Array-based): Implemented for the HistoryStack to manage playback history (LIFO logic).
+
+• File I/O: Specialized handlers for parsing and formatting song metadata from external files.
+
+
+### Technical Skills Demonstrated
+
+• Advanced C++ OOP (Classes, Encapsulation, Constructors).
+
+• Manual memory management and pointer manipulation.
+
+• Algorithm design for searching and sorting playlist data.
+
