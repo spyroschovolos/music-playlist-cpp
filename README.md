@@ -7,7 +7,11 @@ A robust Command Line Interface (CLI) application developed in C++ that simulate
 ### Key features:
 
 • Dynamic Playlist Management: Add, remove, and skip songs in real-time.
+
 • Bi-directional Navigation: Using a Doubly Linked List to move to the next or previous track instantly.
+
 • Playback History: Integrated Stack structure to track recently played songs and support "rewind" functionality.
+
 • Data Persistence: Full support for loading from and saving to .txt files to maintain user data across sessions.
+
 • Statistics & Search: Find songs by artist or title and identify the most popular tracks based on play counts.
