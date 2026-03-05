@@ -4,7 +4,8 @@ A C++ CLI application for music playlist management utilizing Doubly Linked List
 ## C++ Music Playlist Manager (Data Structures Project)
 A robust Command Line Interface (CLI) application developed in C++ that simulates a music streaming service's playlist management system. This project was developed as part of the Data Structures course at the University of the Aegean.
 
-### Key features:
+
+### Key features
 
 • Dynamic Playlist Management: Add, remove, and skip songs in real-time.
 
@@ -15,3 +16,11 @@ A robust Command Line Interface (CLI) application developed in C++ that simulate
 • Data Persistence: Full support for loading from and saving to .txt files to maintain user data across sessions.
 
 • Statistics & Search: Find songs by artist or title and identify the most popular tracks based on play counts.
+
+
+### Data Structures Implemented
+Doubly Linked List: Used for the main playlist to allow $O(1)$ navigation between songs.
+
+Stack (Array-based): Implemented for the HistoryStack to manage playback history (LIFO logic).
+
+File I/O: Specialized handlers for parsing and formatting song metadata from external files.
